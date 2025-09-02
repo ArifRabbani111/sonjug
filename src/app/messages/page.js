@@ -76,11 +76,11 @@ export default function MessagesPage() {
           <div className="space-y-4">
             {[
               {
-                name: 'Ahmed Sarker',
+                name: 'Rakibul kabir',
                 lastMessage: 'Thanks for the job referral!',
                 time: '2 hours ago',
                 unread: 2,
-                avatar: 'AS',
+                avatar: 'RK',
                 online: true
               },
               {

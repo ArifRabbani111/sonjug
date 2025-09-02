@@ -63,7 +63,7 @@ export default function JobsPage() {
                 company: 'TechCorp Bangladesh',
                 location: 'Dhaka, Bangladesh',
                 type: 'Full-time',
-                salary: '$3,000 - $5,000',
+                salary: '৳ 30,000 - ৳ 50,000',
                 logo: 'TC'
               },
               {
@@ -71,7 +71,7 @@ export default function JobsPage() {
                 company: 'Global Solutions Ltd',
                 location: 'Chittagong, Bangladesh',
                 type: 'Full-time',
-                salary: '$2,500 - $4,000',
+                salary: '৳ 25,000 - ৳ 40,000',
                 logo: 'GS'
               },
               {
@@ -79,7 +79,7 @@ export default function JobsPage() {
                 company: 'Creative Studio',
                 location: 'Sylhet, Bangladesh',
                 type: 'Contract',
-                salary: '$2,000 - $3,500',
+                salary: '৳ 20,000 - ৳ 35,000',
                 logo: 'CS'
               }
             ].map((job, index) => (

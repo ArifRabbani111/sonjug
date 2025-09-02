@@ -81,7 +81,7 @@ export default function RootLayout({ children }) {
 
         {/* Main Content */}
         <main className="flex-1 max-w-6xl mx-auto w-full px-4 py-8">
-          <div className="rounded-3xl bg-white/80 shadow-xl p-6 sm:p-10 min-h-[60vh]">
+          <div className="rounded-3xl bg-gray-200/80 shadow-xl p-6 sm:p-10 min-h-[60vh]">
             {children}
           </div>
         </main>
@@ -91,6 +91,9 @@ export default function RootLayout({ children }) {
           <div className="max-w-6xl mx-auto px-4 py-4 flex flex-col sm:flex-row items-center justify-between text-sm text-gray-500">
             <span>
               © {new Date().getFullYear()} <span className="font-semibold text-indigo-600">সংযোগ</span>. All rights reserved.
+            </span>
+            <span className="mt-1 sm:mt-0">
+                <span className="font-normal">made by <a href="https://github.com/ArifRabbani111"><span className='underline-offset-auto'>Arif Rabbani</span></a> with <span className="text-pink-700">♥</span></span>
             </span>
             <span className="mt-2 sm:mt-0">
               Made with <span className="text-pink-500">♥</span> for alumni & students
